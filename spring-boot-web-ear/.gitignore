@@ -1,0 +1,42 @@
+# Maven target directory
+/target/
+/spring-web/target/
+/spring-ear/target/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Eclipse files
+/.classpath
+/.project
+/.settings/
+
+# VS Code files
+/.vscode/
+
+# Logs
+*.log
+/logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Compiled class files
+*.class
+
+# Maven-specific files
+.mvn/
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+
+# Ignore build artifacts
+*.war
+*.ear
+*.jar
