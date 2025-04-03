@@ -8,8 +8,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>web</module>
-        <module>ear</module>
+        <module>spring-web</module>
+        <module>spring-ear</module>
     </modules>
 
     <properties>

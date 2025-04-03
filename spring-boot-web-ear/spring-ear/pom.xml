@@ -8,13 +8,13 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>ear</artifactId>
+    <artifactId>spring-ear</artifactId>
     <packaging>ear</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>web</artifactId>
+            <artifactId>spring-web</artifactId>
             <version>1.0.0</version>
             <type>war</type>
         </dependency>
@@ -30,7 +30,7 @@
                     <modules>
                         <webModule>
                             <groupId>com.example</groupId>
-                            <artifactId>web</artifactId>
+                            <artifactId>spring-web</artifactId>
                             <contextRoot>/</contextRoot>
                         </webModule>
                     </modules>
